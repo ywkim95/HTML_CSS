@@ -1,0 +1,263 @@
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/* nomalize.css 검색 */
+
+.container{
+    width: 1000px;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.left {
+    width: 65%;
+    height: 100%;
+    margin: 20px;
+    float: left;
+}
+.right {
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.info {
+    height: 80px;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    float: left;
+}
+.nickname {
+    height: 100px;
+    float: left;
+}
+.id {
+    margin-block-start: 12px;
+    margin-block-end: 10px;
+    font-size: 20px;
+}
+.main {
+    display: block;
+    clear:both;
+}
+.title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.link {
+    text-align: right;
+}
+.hyperlink {
+    width: 20px;
+    height: 20px;
+    color: aquamarine;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    text-align: center;
+    position: relative;
+}
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.main-content {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 200px;
+}
+.content-box {
+    width: 80%;
+    max-width: 600px;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: -50px;
+    padding: 20px;    
+    box-sizing: border-box;
+}
+input {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.form-background {
+    width: 700px;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+}
+.form-box {
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+}
+.email-input {
+    width: 100%;
+}
+.first-input {
+    float: left;
+}
+.last-input {
+    float:right;
+}
+.textarea-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+form p {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.checkbox-input {
+    float: left;
+}
+.checkbox-input p {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px;
+}
+.button-input {
+    float: right;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type=checkbox] {
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+}
+.table-background {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #c2d3de;
+    padding: 50px;
+}
+h3 {
+    font-size: 20px;
+}
+.table-main {
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+thead tr th {
+    padding: 10px;
+}
+tbody tr {
+    border-top: 1px solid #c2d3de;
+}
+td img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+td p {
+    font-size: 15px;
+    /* margin-top: 5px; */
+    font-family: 'Times New Roman', Times, serif;
+    color: #c2d3de;
+}
+td:first-child {
+    margin: auto;
+    text-align: center;
+}
+tr td:last-child p {
+    color: #0011ff;
+    text-align: right;
+    padding-right: 20px;
+}
+td {
+    width: 80px;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+.w-50 {
+    width: 50px;
+}
+.w-100 {
+    width: 100px;
+}
+.bottom-cart{
+    display:flex;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.button-cart {
+    padding: 20px;
+    color: white;
+    background-color: #000099;
+    border: 0px;
+    border-radius: 5px;
+}

@@ -1,57 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="https://github.com/necolas/normalize.css/blob/master/normalize.css">
-</head>
-<body style="margin: 0px;">
-    <div class="main-background">
-        <h4 class="main-title">Buy Our Shoes!</h4>
-        <p class="main-content">newjeans, converse, newbalance, catchball, asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim</p>
-        <button class="main-button">GO Shopping!</button>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <!-- <link rel="stylesheet" href="CSS/main2.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://github.com/necolas/normalize.css/blob/master/normalize.css"
+    />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div
+        class="flex-item"
+        style="flex-grow: 2; font-size: 50px; font-weight: bold"
+      >
+        <p class="menubar-text">Logo</p>
+      </div>
+      <div class="flex-item"><p>products</p></div>
+      <div class="flex-item"><p>services</p></div>
     </div>
     <div class="content-box">
-        <h3>How we design our shoes</h3>
-        <p>
-            newjeans, converse, newbalance, catchball, asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim,newjeans, converse, newbalance, catchball, asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim
-        </p>
+      <h4>How we design our shoes</h4>
+      <p class="pseudo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione libero
+        necessitatibus blanditiis assumenda facere, eos odit reiciendis
+        accusantium porro pariatur quis, deserunt at laudantium. Suscipit
+        consequatur accusantium aspernatur numquam dignissimos.
+      </p>
     </div>
 
-    <br>
+    <input type="file" style="color: red" />
+    <input type="file" class="input-file" />
+    <input placeholder="hello" />
+    <input type="range" />
 
-    <div class="content-box" style="padding: 50px;">
-        <h3>How we design our shoes</h3>
-        <p>
-            newjeans, converse, newbalance, catchball, asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim,newjeans, converse, newbalance, catchball, asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim
-        </p>
+    <progress value="0.5"></progress>
+
+    <div class="flex-parent">
+      <div class="flex-child">
+        <i class="fas fa-shopping-cart fa-3x"></i>
+        <h4>Fast Shipping</h4>
+        <p>lorem ipsum</p>
+      </div>
+      <div class="flex-child">
+        <i class="fas fa-smile-beam fa-3x"></i>
+        <h4>Good Service</h4>
+        <p>lorem ipsum</p>
+      </div>
+      <div class="flex-child">
+        <i class="fas fa-ticket-alt fa-3x"></i>
+        <h4>Free Coupons</h4>
+        <p>lorem ipsum</p>
+      </div>
+      <div class="flex-child">
+        <i class="fas fa-wallet fa-3x"></i>
+        <h4>New Products</h4>
+        <p>lorem ipsum</p>
+      </div>
+    </div>
+
+    <div class="shop-bg">
+      <div class="shop-container">
+        <div class="shop-item">
+          <div style="position: relative">
+            <div class="overlay-wrap">
+              <div class="overlay-black">
+                <h1>$60</h1>
+                <p>인기상품</p>
+              </div>
+            </div>
+            <img src="img/product1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="shop-item"><img src="img/product2.jpg" alt="" /></div>
+        <div class="shop-item"><img src="img/product3.jpg" alt="" /></div>
+      </div>
+    </div>
+
+    <div class="main-background">
+      <h4 class="main-title">Buy Our Shoes! Now On Sale</h4>
+      <p class="main-content custom">
+        newjeans, converse, newbalance, catchball, asics, north proejct, Lmood,
+        Polo Ralph Rauren, Martin Kim
+      </p>
+      <button class="main-button">GO Shopping!</button>
+    </div>
+    <div class="content-box">
+      <h3>How we design our shoes</h3>
+      <p>
+        newjeans, converse, newbalance, catchball, asics, north proejct, Lmood,
+        Polo Ralph Rauren, Martin Kim,newjeans, converse, newbalance, catchball,
+        asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim
+      </p>
+    </div>
+
+    <br />
+
+    <div class="content-box" style="padding: 50px">
+      <h3>How we design our shoes</h3>
+      <p>
+        newjeans, converse, newbalance, catchball, asics, north proejct, Lmood,
+        Polo Ralph Rauren, Martin Kim,newjeans, converse, newbalance, catchball,
+        asics, north proejct, Lmood, Polo Ralph Rauren, Martin Kim
+      </p>
     </div>
     <div class="form-background">
-        <form action="" class="form-box">
-            <h1>contact us</h1>
-            <p>Your Email</p>
-            <input type="email" class="email-input" placeholder="email@example.com">
-            <div class="first-input">
-                <p>First name</p>
-                <input type="text">
-            </div>
-            <div class="last-input">
-                <p>Last name</p>
-                <input type="text">
-            </div>
-            <div style="clear: both;">
-                <p>Message</p>
-                <textarea rows="10" class="textarea-input"></textarea>
-            </div>
-            <div class="checkbox-input">
-                <input type="checkbox">
-                <p style="font-size: 16px;display: inline-block;">Subscribe</p>
-            </div>
-            <button class="button-input" type="submit">SEND</button>
-        </form>
+      <form action="" class="form-box">
+        <h1>contact us</h1>
+        <p>Your Email</p>
+        <input
+          type="email"
+          class="email-input"
+          placeholder="email@example.com"
+        />
+        <div class="first-input">
+          <p>First name</p>
+          <input type="text" />
+        </div>
+        <div class="last-input">
+          <p>Last name</p>
+          <input type="text" />
+        </div>
+        <div style="clear: both">
+          <p>Message</p>
+          <textarea rows="10" class="textarea-input"></textarea>
+        </div>
+        <div class="checkbox-input">
+          <input type="checkbox" />
+          <p style="font-size: 16px; display: inline-block">Subscribe</p>
+        </div>
+        <button class="button-input" type="submit">SEND</button>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
